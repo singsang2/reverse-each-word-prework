@@ -1,3 +1,9 @@
 def reverse_each_word(string)
-  string.strip(" ")
+  word_list = string.split(" ")
+  word_list.collect do |word|
+    word.reverse
+  end
+  word_list.join
+end
+
   
