@@ -5,5 +5,4 @@ def reverse_each_word(string)
   end
   word_list.join
 end
-
   
